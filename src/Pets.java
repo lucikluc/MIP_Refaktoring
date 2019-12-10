@@ -19,4 +19,37 @@ public class Pets {
 			age=ag;
 			
 		}
+		
+		public String getName() { //getter
+			return this.name;
+		}
+		
+		public String getEyeColor() {
+			return this.eyeColor; 
+		}
+		
+		public String getBreed() {
+			return this.breed;
+		}
+		
+		public String getFur() {
+			return this.fur;
+		}
+		
+		public String getSex() {
+			return this.sex;
+		}
+		
+		public int getAge() {
+			return this.age;
+		}
+		
+		public boolean getAdopted() { 
+			return this.adopted;
+		}
+
+		public boolean setAdopted() { 
+			return this.adopted=true;
+		}
+
 }
